@@ -1,4 +1,8 @@
+*{
+	margin:0;
+	padding:0;
 
+}
 
 #layer{
 	background-image: url(https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80);
@@ -8,6 +12,7 @@
     width: 100%;
     background-position: center;
    text-align: center;  
+
  
   
 }
@@ -27,10 +32,7 @@ div{
 	display: block;
 }
 
-*{
-	margin:0;
-	padding:0;
-}
+
 
 .wrapper{
 	background-color: #f9d5b9;
@@ -44,36 +46,95 @@ div{
 
 
 
-.img-thumbnail, .grid{
-	width: 300px;
-	height:300px;
-	background: cover;
-	 text-align:center;
-	 display: inline-block;
-	 margin-bottom: 30px;
-	margin-top: 30px;
-
-   
-}
-
+/*.img-thumbnail, {
+	margin-left: 0;
+	margin-right: 0;
+	/*width: 300px;*/
+	/*height:300px;*/
+	/*width: 100%;*/
+	/*max-height: 350px;*/
+	/*max-width: 350px;*/
+	/*object-fit: scale-down;*/
+	/*text-align:center;*/
+	 /*display: inline-block;*/
+	 /*margin-bottom: 30px;*/
+	/*margin-top: 30px;/*/
 .img-thumbnail{
-
-	/*box-shadow: 10px 5px 5px #336279;*/
-	    box-shadow: 0 0 20px 1px grey;
-   /* width: 100%;
-    height: 100%;*/
-
+	
+	margin-top: 25px;
+	box-shadow: 0 0 20px 1px grey;
 }
+
+	 
+	
+
+	/*.frame{
+		margin: 220px 0 0 0;
+		width: 100%
+		text-align: center;
+	}*/
+
+	/*.img-thumbnail{
+		
+		box-shadow: 0 0 20px 1px grey;
+		
+	
+		
+		object-fit: contain;
+	}*/
+
+
+.grid{
+	margin-left: 0;
+	margin-right: 0;
+	object-fit: scale-down;
+	
+
+	}
+
+.candy{
+	background-image: url(https://images.unsplash.com/photo-1534073737927-85f1ebff1f5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80);
+}
+
+.moto{
+	background-image: url(https://www.classifiedmoto.com/wp-content/uploads/2017/07/gallery-homepage.jpg)
+}
+
+.lcs{
+	background-image: url(https://images.unsplash.com/photo-1523394397008-7c076b65a890?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80)
+}
+
+.rps{
+	background-image: url(https://media.istockphoto.com/vectors/rock-paper-scissors-vector-illustration-vector-id824700882?k=6&m=824700882&s=612x612&w=0&h=1suqNu6Q8hEiFwkxmb6NX6eOXnorydHHb5Y0EPjZY1M=);
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+
 
 p{
-	margin-top:  -15px;
+	margin-top:  15px;
 	    font-family: 'Courier New', Courier, monospace;
+	    text-align: center;
 
 }
 
-
-img{
-	object-fit: contain;
+/*img{
+	object-fit: scale-down;
 	overflow: hidden;
-}
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	
+}*/
 
+/*.container{
+	text-align: center;
+	padding:0;
+	margin:0;
+}*/
