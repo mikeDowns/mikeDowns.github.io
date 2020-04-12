@@ -58,14 +58,17 @@ div{
 
 	
 
-/*.grid{
-	margin-left: 0;
-	margin-right: 0;
-	object-fit: scale-down;
+
 	
 
-	}*/
-	/*Images*/
+	
+	/*Images vvvvv requires both specific img class AND .image class to display hover/description class correctly*/
+
+	.Airbnb{
+		background-image: url(https://www.dgtlnk.com/wp-content/uploads/airbnb_logo_detail.jpg);
+		background-size: cover;
+		background-position: center;
+	}
 
 .candy{
 	background-image: url(https://images.unsplash.com/photo-1534073737927-85f1ebff1f5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80);
@@ -73,6 +76,8 @@ div{
 
 .moto{
 	background-image: url(https://www.classifiedmoto.com/wp-content/uploads/2017/07/gallery-homepage.jpg)
+
+
 }
 
 .lcs{
