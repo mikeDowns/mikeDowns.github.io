@@ -62,10 +62,14 @@ div{
 
 	
 	/*Images vvvvv requires both specific img class AND .image class to display hover/description class correctly*/
+.reading{
+	background-image: url(https://i.morioh.com/36c5fc09c6.png)
+}
+
+
 .netflix{
 	background-image: url(https://www.whats-on-netflix.com/wp-content/uploads/2020/04/netflix-april-2020-new-releases.jpg);
 	
-
 }
 	.Airbnb{
 		background-image: url(https://www.dgtlnk.com/wp-content/uploads/airbnb_logo_detail.jpg);
@@ -115,7 +119,6 @@ p{
   padding: 0;
   border: 0;
 }
-
 /* relevant styles */
 
 
