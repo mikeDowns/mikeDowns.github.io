@@ -37,10 +37,13 @@ div{
 }
 
 
+
+
 #button-div{
 	text-align: center;
 	    font-family: 'Courier New', Courier, monospace;
 }
+
 
 
 
@@ -68,6 +71,11 @@ div{
 .bambam{
 	
 background-image: url(https://shop.spreadshirt.com/100758336/shopData/images/teaser/eberhard-grossgasteiger-LAZX9pMx85E-unsplash_kgkshr.jpg);
+background-size: cover;
+}
+.vintage{
+	
+background-image: url(https://vintagevinyl679170121.files.wordpress.com/2021/01/toda2.jpg);
 background-size: cover;
 }
 
